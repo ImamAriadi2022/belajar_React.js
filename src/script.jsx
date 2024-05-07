@@ -1,8 +1,8 @@
-import React from 'eact';
-import ReactDOM from 'eact-dom';
+// your-react-component.js
+const rootElement = document.getElementById('root');
 
 function App() {
-  return <h1>Hello, World!</h1>;
+    return <h1>Hello, World!</h1>;
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, rootElement);
